@@ -1,5 +1,6 @@
 ﻿using System;
 using Fin2020.PaymentModels;
+using Fin2020.PaymentModels.Nacha;
 
 namespace Fin2020
 {
@@ -9,6 +10,7 @@ namespace Fin2020
         public Document NACHA2ISO()
         {
             throw new NotImplementedException();
+           
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileHeader>
+  <RecordTypeCode Length="1" Position="1" Mandatory="M">1</RecordTypeCode>
+  <PriorityCode Length="2" Position="2" Mandatory="R">01</PriorityCode>
+  <ImmidiateDestination Length="10" Position="4" Mandatory="M"></ImmidiateDestination>
+  <ImmidiateOrigin Length="10" Position="14" Mandatory="M"></ImmidiateOrigin>
+  <FileCreationDate Length="6" Position="24" Mandatory="M"></FileCreationDate>
+  <FileCreationTime Length="4" Position="30" Mandatory="O"></FileCreationTime>
+  <FileIdModifier Length="1" Position="34" Mandatory="M">A</FileIdModifier>
+  <RecordSize Length="3" Position="35" Mandatory="M">94</RecordSize>
+  <BlockingFactor Length="2" Position="38" Mandatory="M">10</BlockingFactor>
+  <FormatCode Length="1" Position="40" Mandatory="M">1</FormatCode>
+  <ImmidiateDestinationName Length="23" Position="41" Mandatory="O">ABC</ImmidiateDestinationName>
+  <ImmidiateOriginName Length="23" Position="64" Mandatory="O" >ABC</ImmidiateOriginName>
+  <ReferenceCode Length="8" Position="87" Mandatory="O" ></ReferenceCode>
+</FileHeader>
